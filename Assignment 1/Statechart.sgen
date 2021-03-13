@@ -1,0 +1,33 @@
+GeneratorModel for yakindu::java {
+
+	const PROJECT : string = "Assignment 1"
+
+	const FOLDER : string = "src-gen"
+
+	statechart coffeeMachineDispenser {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = FOLDER
+			libraryTargetFolder = "src"
+		}
+	}
+
+	statechart heatingSystem {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = FOLDER
+			libraryTargetFolder = "src"
+		}
+	}
+
+	statechart intruderAlarm {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = FOLDER
+			libraryTargetFolder = "src"
+		}
+	}
+}
